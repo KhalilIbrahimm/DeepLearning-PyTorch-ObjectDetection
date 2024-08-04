@@ -37,9 +37,8 @@ We use an enhanced version of MNIST with the following modifications:
 
 ## Getting Started
 1. Clone the repository:
-git clone git@github.com:KhalilIbrahimm/DeepLearning-PyTorch-ObjectDetection.git
 ```bash
-cd DeepLearning-PyTorch-ObjectDetection
+git clone git@github.com:KhalilIbrahimm/DeepLearning-PyTorch-ObjectDetection.git
 ```
 
 3. Set up a virtual environment and activate it:
