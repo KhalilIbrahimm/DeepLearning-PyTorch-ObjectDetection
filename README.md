@@ -38,22 +38,22 @@ We use an enhanced version of MNIST with the following modifications:
 ## Getting Started
 1. Clone the repository:
 git clone git@github.com:KhalilIbrahimm/DeepLearning-PyTorch-ObjectDetection.git
-´´´bash
+```bash
 cd DeepLearning-PyTorch-ObjectDetection
-´´´
+```
 
 3. Set up a virtual environment and activate it:
-´´´bash
+```bash
 python -m venv venv
-´´´
+```
 
-´´´bash
+```bash
 source venv/bin/activate  # On Windows, use venv\Scripts\activate
-´´´
+```
 5. Install the required dependencies:
-´´´bash
+```bash
 pip install -r requirements.txt
-´´´
+```
 
 6. Launch Jupyter Notebook:
 jupyter notebook
