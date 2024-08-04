@@ -6,7 +6,7 @@
 
 ## Project Overview
 
-This project implements advanced object localization and detection techniques using Convolutional Neural Networks (CNNs) in PyTorch. We work with an augmented version of the MNIST dataset to tackle two main challenges:
+This project, a collaboration with Kavya Malhotra, implements advanced object localization and detection techniques using Convolutional Neural Networks (CNNs) in PyTorch. We work with an augmented version of the MNIST dataset to tackle two main challenges:
 
 1. **Object Localization**: Classifying a single object in an image and predicting its bounding box.
 2. **Object Detection**: Identifying and classifying multiple objects in an image, with bounding boxes for each.
