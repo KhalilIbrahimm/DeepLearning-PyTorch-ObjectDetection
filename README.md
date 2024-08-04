@@ -35,52 +35,25 @@ We use an enhanced version of MNIST with the following modifications:
 - Matplotlib
 - Jupyter Notebook
 
-## Project Structure
-DeepLearning-PyTorch-ObjectDetection/
-│
-├── data/
-│   ├── localization_train.pt
-│   ├── localization_val.pt
-│   ├── localization_test.pt
-│   ├── detection_train.pt
-│   ├── detection_val.pt
-│   └── detection_test.pt
-│
-├── notebooks/
-│   ├── 1_Object_Localization.ipynb
-│   └── 2_Object_Detection.ipynb
-│
-├── src/
-│   ├── models/
-│   │   ├── localization_model.py
-│   │   └── detection_model.py
-│   ├── utils/
-│   │   ├── data_utils.py
-│   │   └── visualization.py
-│   └── train.py
-│
-├── requirements.txt
-├── README.md
-
 ## Getting Started
 1. Clone the repository:
 git clone git@github.com:KhalilIbrahimm/DeepLearning-PyTorch-ObjectDetection.git
-'''bash
+´´´bash
 cd DeepLearning-PyTorch-ObjectDetection
-'''
+´´´
 
 3. Set up a virtual environment and activate it:
-'''bash
+´´´bash
 python -m venv venv
-'''
+´´´
 
-'''bash
+´´´bash
 source venv/bin/activate  # On Windows, use venv\Scripts\activate
-'''
+´´´
 5. Install the required dependencies:
-'''bash
+´´´bash
 pip install -r requirements.txt
-'''
+´´´
 
 6. Launch Jupyter Notebook:
 jupyter notebook
